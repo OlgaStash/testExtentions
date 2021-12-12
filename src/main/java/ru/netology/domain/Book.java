@@ -22,25 +22,25 @@ public class Book extends Product {
         return author;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public int getPages() {
-        return pages;
-    }
-
-    public void setPages(int pages) {
-        this.pages = pages;
-    }
-
-    public int getPublishedYear() {
-        return publishedYear;
-    }
-
-    public void setPublishedYear(int publishedYear) {
-        this.publishedYear = publishedYear;
-    }
+//    public void setAuthor(String author) {
+//        this.author = author;
+//    }
+//
+//    public int getPages() {
+//        return pages;
+//    }
+//
+//    public void setPages(int pages) {
+//        this.pages = pages;
+//    }
+//
+//    public int getPublishedYear() {
+//        return publishedYear;
+//    }
+//
+//    public void setPublishedYear(int publishedYear) {
+//        this.publishedYear = publishedYear;
+//    }
 
     @Override
     public boolean equals(Object o) {
